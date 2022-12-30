@@ -2,26 +2,31 @@ import logo from './logo.svg';
 import wtlogo from './assets/logos/wt_logo.png';
 import './App.css';
 
+
 function App () {
     return (
         <div className="App">
 
-            <h1 style={ {
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                height: '1vh',
-            } }>Welcome to WeTalkin!</h1>
-
             <header className="App-header">
+
+                <h1 id='title' style={ {
+                    // display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    height: '1vh',
+                } }>
+                    Welcome to WeTalkin!
+                </h1>
 
                 <br></br><br></br><br></br>
 
                 <img src={ wtlogo } className="App-logo" alt="logo" />
 
+                <br></br>
+
                 <h1>WeTalkin.com</h1>
 
-                <p>
+                <p className='bodyHeading'>
                     Welcome to WeTalkin by Blossend!
                 </p>
 
