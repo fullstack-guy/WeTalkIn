@@ -26,13 +26,13 @@ function App () {
 
                 <h1>WeTalkin.com</h1>
 
+                
                 <p className='bodyHeading'>
-                    WeTalkin on the AppStore:!
+                    Download on the AppStore:
                 </p>
 
-
                 <a class="projectLink" href="https://wetalkin.com"><button type="button"
-                    class="btn btn-outline-success btn-warning ml-2 mr-2 mt-0 mb-2">WeTalkin.com</button></a>
+                    class="btn btn-outline-success btn-warning ml-2 mr-2 mt-0 mb-4">WeTalkin - AppStore</button></a>
 
 
                 <a
