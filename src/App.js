@@ -15,7 +15,7 @@ function App () {
                     justifyContent: 'center',
                     height: '1vh',
                 } }>
-                    Welcome to WeTalkin!
+                    Welcome to WeTalkin by Blossend!
                 </h1>
 
                 <br></br><br></br><br></br>
@@ -27,8 +27,13 @@ function App () {
                 <h1>WeTalkin.com</h1>
 
                 <p className='bodyHeading'>
-                    Welcome to WeTalkin by Blossend!
+                    WeTalkin on the AppStore:!
                 </p>
+
+
+                <a class="projectLink" href="https://wetalkin.com"><button type="button"
+                    class="btn btn-outline-success btn-warning ml-2 mr-2 mt-0 mb-2">WeTalkin.com</button></a>
+
 
                 <a
                     className="App-link"
