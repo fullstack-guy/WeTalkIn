@@ -5,51 +5,51 @@ import React from "react";
 import './style.css';
 
 
-function Footer() {
+function Footer () {
     return (
         <React.Fragment>
 
 
 
-            {/* <!-- Footer --> */}
+            {/* <!-- Footer --> */ }
             <footer class="page-footer font-small mdb-color pt-4 myFooter">
 
-                {/* <!-- Footer Links --> */}
+                {/* <!-- Footer Links --> */ }
                 <div class="container text-center text-md-left">
 
-                    {/* <!-- Footer links --> */}
+                    {/* <!-- Footer links --> */ }
                     <div class="row text-center text-md-left mt-3 pb-3">
 
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
                         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                             <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
 
                         <hr class="w-100 clearfix d-md-none"></hr>
 
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                             <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
                             <p>
-                                <a href="#!">Your Channels</a>
+                                <a href="#!">WeTalkin</a>
                             </p>
                             <p>
-                                <a href="#!">Your Playlists</a>
+                                <a href="#!">WeTalkin2</a>
                             </p>
                             <p>
-                                <a href="#!">Favorite Channels</a>
+                                <a href="#!">WeTalkin3</a>
                             </p>
                             <p>
-                                <a href="#!">Favorite Playlists</a>
+                                <a href="#!">WeTalkin4</a>
                             </p>
                         </div>
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
 
                         <hr class="w-100 clearfix d-md-none"></hr>
 
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
                         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                             <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
                             <p>
@@ -59,17 +59,17 @@ function Footer() {
                                 <a href="#!">Followers</a>
                             </p>
                             <p>
-                                <a href="#!">Channels You Follow</a>
+                                <a href="#!">People You Follow</a>
                             </p>
                             <p>
                                 <a href="#!">Support</a>
                             </p>
                         </div>
 
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
                         <hr class="w-100 clearfix d-md-none"></hr>
 
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                             <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
                             <p>
@@ -81,14 +81,14 @@ function Footer() {
                             <p>
                                 <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
                         </div>
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
 
                     </div>
-                    {/* <!-- Footer links --> */}
+                    {/* <!-- Footer links --> */ }
 
                     <hr></hr>
 
-                    {/* <!-- Grid row --> */}
+                    {/* <!-- Grid row --> */ }
                     <div class="row d-flex align-items-center">
 
 
@@ -96,21 +96,21 @@ function Footer() {
 
 
 
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
                         <div class="col-md-7 col-lg-8">
 
                         </div>
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
 
 
 
 
 
 
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
                         <div class="col-md-5 col-lg-4 ml-lg-0">
 
-                            {/* <!-- Social buttons --> */}
+                            {/* <!-- Social buttons --> */ }
                             <div class="text-center text-md-right">
                                 <ul class="list-unstyled list-inline">
                                     <li class="list-inline-item">
@@ -137,16 +137,16 @@ function Footer() {
                             </div>
 
                         </div>
-                        {/* <!-- Grid column --> */}
+                        {/* <!-- Grid column --> */ }
 
                     </div>
-                    {/* <!-- Grid row --> */}
+                    {/* <!-- Grid row --> */ }
 
                 </div>
-                {/* <!-- Footer Links --> */}
+                {/* <!-- Footer Links --> */ }
 
             </footer>
-            {/* <!-- Footer --> */}
+            {/* <!-- Footer --> */ }
 
 
 

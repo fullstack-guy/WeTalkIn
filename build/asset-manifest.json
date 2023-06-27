@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd6fe1c0.css",
+    "main.js": "/static/js/main.1f6132f1.js",
+    "static/js/787.9b581ed2.chunk.js": "/static/js/787.9b581ed2.chunk.js",
+    "static/media/wt_logo.png": "/static/media/wt_logo.59e325d999c01de83804.png",
+    "index.html": "/index.html",
+    "main.fd6fe1c0.css.map": "/static/css/main.fd6fe1c0.css.map",
+    "main.1f6132f1.js.map": "/static/js/main.1f6132f1.js.map",
+    "787.9b581ed2.chunk.js.map": "/static/js/787.9b581ed2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd6fe1c0.css",
+    "static/js/main.1f6132f1.js"
+  ]
+}

@@ -1,24 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Audiowide|Orbitron:700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Orbitron:700&display=swap");
 
-/* .navbar-light .navbar-brand {
-    color: rgba(255, 0, 0, 0.9);
-} */
-
-.logo-PrtOne {
-    text-align: left;
-    float: left;
-    font-family: 'Orbitron', sans-serif;
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
 }
 
-.logo-PrtTwo {
-    text-align: right;
-    float: right;
-    font-family: 'Audiowide', cursive;
-    font-weight: bolder;
+#title {
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
-a {
-    color: #ffffff;
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
     text-decoration: none;
-    background-color: transparent;
+    color: #fff;
+    padding: 8px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
 }

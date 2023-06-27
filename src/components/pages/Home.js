@@ -1,23 +1,30 @@
 // dependencies:
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Redirect, Switch, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Redirect, Switch, Link } from "react-router-dom";
 
 // ---- PAGES:
-import ChannelPlaylist from "./ChannelPlaylist";
 // ---- LAYOUTS:
+import Header from "../layouts/Header";
+import Body from "../layouts/Body";
+import Footer from "../layouts/Footer";
 // ---- COMPONENTS:
 
 
 class Home extends Component {
-    render() {
+    render () {
         return (
+
             <React.Fragment>
-                <Router>
 
-                    <Route exact path="/" component={ChannelPlaylist} />
+                <Header />
 
-                </Router>
+                <Body />
+
+                <Footer />
+
             </React.Fragment>
+
+
         );
     }
 }

@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.App-logo {
+    width: 350px;
+    height: 350px;
+    margin: 20px auto;
+}
+
+.bodyHeading {
+    font-size: 24px;
+}
+
+.projectLink {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn-outline-success {
+    color: #fff;
+    border-color: #28a745;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+}
+
+.App-link {
+    display: block;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.App-link:hover {
+    text-decoration: underline;
+}
