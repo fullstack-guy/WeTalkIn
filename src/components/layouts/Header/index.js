@@ -36,7 +36,7 @@ const Header = () => {
                         <a href="/📸">📸</a>
                     </li>
                     <li>
-                        <a href="/📚">📚ePrograms</a>
+                        <a href="/📚">📚</a>
                     </li>
                     <li>
                         <a href="/about">About</a>

@@ -7,6 +7,8 @@ import HomeBody from "../../bodies/Home";
 import Featured from "../../bodies/Featured";
 import Networkin from "../../bodies/Networkin";
 import Datin from "../../bodies/Datin";
+import Content from "../../bodies/Content";
+import EPrograms from "../../bodies/ePrograms";
 import About from "../../bodies/About";
 import Contact from "../../bodies/Contact";
 
@@ -26,6 +28,8 @@ const Body = () => {
                 <Route path="/featured" element={ <Featured /> } />
                 <Route path="/networkin" element={ <Networkin /> } />
                 <Route path="/🔥" element={ <Datin /> } />
+                <Route path="/📸" element={ <Content /> } />
+                <Route path="/📚" element={ <EPrograms /> } />
                 <Route path="/about" element={ <About /> } />
                 <Route path="/contact" element={ <Contact /> } />
 
