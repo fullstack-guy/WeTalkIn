@@ -18,7 +18,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build --branch=gh-pages"
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
