@@ -1,7 +1,6 @@
 // dependencies:
 import React from "react";
 
-// ---- LAYOUT:
 // ---- COMPONENTS:
 // ---- files:
 import "./style.css";
@@ -28,7 +27,7 @@ const Header = () => {
                         <a href="/featured">Featured</a>
                     </li>
                     <li>
-                        <a href="/networking">Private Decentralized Networkin'</a>
+                        <a href="/networkin">Private Decentralized Networkin'</a>
                     </li>
                     <li>
                         <a href="/🔥">🔥</a>
@@ -37,7 +36,7 @@ const Header = () => {
                         <a href="/📸">📸</a>
                     </li>
                     <li>
-                        <a href="/ePrograms">📚ePrograms</a>
+                        <a href="/📚">📚ePrograms</a>
                     </li>
                     <li>
                         <a href="/about">About</a>
