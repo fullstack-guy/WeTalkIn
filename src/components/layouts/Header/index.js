@@ -15,7 +15,7 @@ const Header = () => {
         <header>
 
             <h1 id='title'>
-                Welcome to WeTalkin by Blossend!
+                Welcome to WeTalkin!
             </h1>
 
             <nav>
