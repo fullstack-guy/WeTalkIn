@@ -3,18 +3,18 @@ import React, { Component } from "react";
 
 // ---- LAYOUTS:
 import Header from "../layouts/Header";
-import HomeBody from "../layouts/bodies/HomeBody";
+import DatinBody from "../layouts/bodies/DatinBody";
 import Footer from "../layouts/Footer";
 
 
-class Home extends Component {
+class Datin extends Component {
     render () {
         return (
 
             <React.Fragment>
 
                 <Header />
-                <HomeBody />
+                <DatinBody />
                 <Footer />
 
             </React.Fragment>
@@ -23,4 +23,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Datin;

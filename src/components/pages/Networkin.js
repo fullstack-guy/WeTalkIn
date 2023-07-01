@@ -3,18 +3,18 @@ import React, { Component } from "react";
 
 // ---- LAYOUTS:
 import Header from "../layouts/Header";
-import HomeBody from "../layouts/bodies/HomeBody";
+import NetworkinBody from "../layouts/bodies/NetworkinBody";
 import Footer from "../layouts/Footer";
 
 
-class Home extends Component {
+class Networkin extends Component {
     render () {
         return (
 
             <React.Fragment>
 
                 <Header />
-                <HomeBody />
+                <NetworkinBody />
                 <Footer />
 
             </React.Fragment>
@@ -23,4 +23,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Networkin;
