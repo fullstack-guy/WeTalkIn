@@ -18,8 +18,16 @@ const NetworkinBody = () => {
                 </p>
 
                 <a className="projectLink" href="https://apps.apple.com/us/app/wetalkin/id1598817389">
-                    <button type="button" className="btn btn-outline-success btn-warning ml-2 mr-2 mt-0 mb-4">
+                    <button type="button" className="btn btn-outline btn-warning ml-2 mr-2 mt-0 mb-4">
                         WeTalkin - AppStore
+                    </button>
+                </a>
+
+                <br></br><br></br>
+
+                <a className="projectLink" href="https://apps.apple.com/us/app/wetalkin/id1598817389">
+                    <button type="button" className="btn btn-outline btn-warning ml-2 mr-2 mt-0 mb-4">
+                        ↔️ NS (soon!)
                     </button>
                 </a>
 
