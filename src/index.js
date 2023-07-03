@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './styles/index.css';
-import reportWebVitals from './test/reportWebVitals';
+import reportWebVitals from './utils/test/reportWebVitals';
 
 
 const root = ReactDOM.createRoot( document.getElementById( 'root' ) );
