@@ -1,6 +1,6 @@
 // dependencies:
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // ---- PAGES:
 import Home from './components/pages/Home'
@@ -20,7 +20,7 @@ function App () {
     return (
 
 
-        <Router basename="WeTalkin___React">
+        <Router>
             <Switch>
                 <Route exact path="/" component={ Home } />
                 <Route path="/featured" component={ Featured } />
