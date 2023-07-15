@@ -20,9 +20,8 @@ function App () {
     return (
 
 
-        <Router>
+        <Router basename="WeTalkin___React">
             <Switch>
-
                 <Route exact path="/" component={ Home } />
                 <Route path="/featured" component={ Featured } />
                 <Route path="/networkin" component={ Networkin } />
@@ -31,7 +30,6 @@ function App () {
                 <Route path="/📚" component={ EPrograms } />
                 <Route path="/about" component={ About } />
                 <Route path="/contact" component={ Contact } />
-
             </Switch>
         </Router>
 
