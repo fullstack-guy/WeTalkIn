@@ -32,7 +32,7 @@ function App () {
                 <Route path="/about" component={ About } />
                 <Route path="/contact" component={ Contact } />
             </Switch>
-        </HashRouter >npm install react - router - dom@latest
+        </HashRouter >
 
 
 
