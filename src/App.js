@@ -1,6 +1,7 @@
 // dependencies:
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 // ---- PAGES:
 import Home from './components/pages/Home'
@@ -20,7 +21,7 @@ function App () {
     return (
 
 
-        <Router>
+        <HashRouter>
             <Switch>
                 <Route exact path="/" component={ Home } />
                 <Route path="/featured" component={ Featured } />
@@ -31,7 +32,8 @@ function App () {
                 <Route path="/about" component={ About } />
                 <Route path="/contact" component={ Contact } />
             </Switch>
-        </Router>
+        </HashRouter >npm install react - router - dom@latest
+
 
 
     );
