@@ -1,7 +1,7 @@
 // dependencies:
 import React from 'react';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 // ---- PAGES:
 import Home from './components/pages/Home'
@@ -21,19 +21,18 @@ function App () {
     return (
 
 
-        <HashRouter>
-            <Switch>
-                <Route exact path="/" component={ Home } />
-                <Route path="/featured" component={ Featured } />
-                <Route path="/networkin" component={ Networkin } />
-                <Route path="/🔥" component={ Datin } />
-                <Route path="/📸" component={ Content } />
-                <Route path="/📚" component={ EPrograms } />
-                <Route path="/about" component={ About } />
-                <Route path="/contact" component={ Contact } />
-            </Switch>
-        </HashRouter >
-
+        <Router>
+            <Routes>
+                <Route path="/" element={ <Home /> } />
+                <Route path="/featured" element={ <Featured /> } />
+                <Route path="/networkin" element={ <Networkin /> } />
+                <Route path="/🔥" element={ <Datin /> } />
+                <Route path="/📸" element={ <Content /> } />
+                <Route path="/📚" element={ <EPrograms /> } />
+                <Route path="/about" element={ <About /> } />
+                <Route path="/contact" element={ <Contact /> } />
+            </Routes>
+        </Router>
 
 
     );
